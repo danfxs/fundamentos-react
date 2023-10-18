@@ -1,0 +1,8 @@
+.Input input {
+    font-size: 1.2em;
+}
+
+.CamposInputs {
+    display: 'flex';
+    flex-direction: 'column';
+}
