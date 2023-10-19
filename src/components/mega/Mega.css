@@ -1,0 +1,15 @@
+.Mega input {
+    font-size: 1.2rem;
+}
+
+.Mega button {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.Mega h3 {
+    margin: 20px;
+}

@@ -17,11 +17,16 @@ import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/Contador";
 import ContadorModularizado from "./components/contador/ContadorModularizado";
+import Mega from "./components/mega/Mega";
 
 const App = props => (
     <div className="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
+            <Card title="#15 - Megasena" backgroundColor="#FA2">
+                <Mega />
+            </Card>
+
             <Card title="#14 - Contador Modularizado" backgroundColor="#52B">
                 <ContadorModularizado numeroInicial={100} />
             </Card>
